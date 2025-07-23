@@ -1,3 +1,4 @@
+# example output using ./cement_flow -m CITIES -i CementPlantDists.csv -s supply_demand.csv > cities_output.txt
 Using averaged CITY distances as weights
 
 --------------------------

@@ -1,3 +1,4 @@
+# example output using ./cement_flow -m MAX -i CementPlantDists.csv -s supply_demand.csv > max_output.txt
 Using averaged MAX border distances as weights
 
 --------------------------
