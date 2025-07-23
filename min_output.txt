@@ -1,0 +1,142 @@
+Using averaged MIN border distances as weights
+
+--------------------------
+     EDGES BEING USED
+--------------------------
+Edge(Texas -> New Mexico, 475)
+Edge(Texas -> Oklahoma, 322)
+Edge(Texas -> Arkansas, 473)
+Edge(Texas -> Louisiana, 429)
+Edge(Missouri -> Iowa, 231)
+Edge(Missouri -> Illinois, 53)
+Edge(Missouri -> Kentucky, 240)
+Edge(Missouri -> Tennessee, 276)
+Edge(Missouri -> Arkansas, 223)
+Edge(Missouri -> Oklahoma, 382)
+Edge(Missouri -> Kansas, 303)
+Edge(Missouri -> Nebraska, 402)
+Edge(Michigan -> Ohio, 387)
+Edge(Michigan -> Illinois, 414)
+Edge(Michigan -> Wisconsin, 209)
+Edge(Michigan -> Indiana, 390)
+Edge(Pennsylvania -> New York, 122)
+Edge(Pennsylvania -> New Jersey, 88)
+Edge(Pennsylvania -> Delaware, 130)
+Edge(Pennsylvania -> Maryland, 100)
+Edge(Pennsylvania -> West Virginia, 192)
+Edge(Pennsylvania -> Ohio, 360)
+Edge(South Carolina -> Georgia, 101)
+Edge(South Carolina -> North Carolina, 172)
+Edge(Wyoming -> Montana, 415)
+Edge(Wyoming -> South Dakota, 232)
+Edge(Wyoming -> Nebraska, 130)
+Edge(Wyoming -> Kansas, 332)
+Edge(Wyoming -> Oklahoma, 525)
+Edge(Wyoming -> New Mexico, 475)
+Edge(Wyoming -> Arizona, 560)
+Edge(Wyoming -> Utah, 290)
+Edge(Wyoming -> Idaho, 460)
+Edge(Colorado -> Montana, 677)
+Edge(Colorado -> South Dakota, 463)
+Edge(Colorado -> Nebraska, 247)
+Edge(Colorado -> Kansas, 252)
+Edge(Colorado -> Oklahoma, 277)
+Edge(Colorado -> New Mexico, 212)
+Edge(Colorado -> Arizona, 427)
+Edge(Colorado -> Utah, 354)
+Edge(Colorado -> Idaho, 624)
+Edge(Kansas -> Nebraska, 251)
+Edge(Kansas -> Missouri, 73)
+Edge(Kansas -> Oklahoma, 83)
+Edge(Kansas -> Colorado, 579)
+Edge(Alabama -> Illinois, 511)
+Edge(Alabama -> Indiana, 568)
+Edge(Alabama -> Ohio, 728)
+Edge(Alabama -> West Virginia, 707)
+Edge(Alabama -> Virginia, 536)
+Edge(Alabama -> North Carolina, 364)
+Edge(Alabama -> Georgia, 176)
+Edge(Alabama -> Florida, 210)
+Edge(Alabama -> Mississippi, 115)
+Edge(Alabama -> Arkansas, 377)
+Edge(Alabama -> Missouri, 456)
+Edge(Kentucky -> Illinois, 157)
+Edge(Kentucky -> Indiana, 1)
+Edge(Kentucky -> Ohio, 152)
+Edge(Kentucky -> West Virginia, 286)
+Edge(Kentucky -> Virginia, 254)
+Edge(Kentucky -> North Carolina, 407)
+Edge(Kentucky -> Georgia, 340)
+Edge(Kentucky -> Florida, 783)
+Edge(Kentucky -> Mississippi, 396)
+Edge(Kentucky -> Arkansas, 408)
+Edge(Kentucky -> Missouri, 308)
+Edge(Tennessee -> Illinois, 384)
+Edge(Tennessee -> Indiana, 307)
+Edge(Tennessee -> Ohio, 355)
+Edge(Tennessee -> West Virginia, 314)
+Edge(Tennessee -> Virginia, 145)
+Edge(Tennessee -> North Carolina, 73)
+Edge(Tennessee -> Georgia, 64)
+Edge(Tennessee -> Florida, 525)
+Edge(Tennessee -> Mississippi, 331)
+Edge(Tennessee -> Arkansas, 461)
+Edge(Tennessee -> Missouri, 459)
+
+--------------------------
+STARTING SUPPLY AND DEMAND
+--------------------------
+Maine and New York, 1241
+Pennsylvania, -871
+Illinois, 1635
+Indiana Ohio, 2304
+Michigan, -2191
+Iowa Nebraska South Dakota, 438
+Kansas, -1362
+Missouri, -7339
+Florida, 2367
+Georgia Maryland Virginia West Virginia, 1486
+South Carolina, -1204
+Alabama Kentucky Tennessee, -1735
+Arkansas and Oklahoma, 407
+Texas, 4559
+Arizona and New Mexico, 1135
+Colorado and Wyoming, -198
+Montana Nevada Utah, 1244
+California, 791
+Oregon and Washington, 1013
+
+--------------------------
+   OPTIMAL DISTRIBUTION    
+--------------------------
+Pushed 1735 flow from Kentucky to Indiana
+Pushed 1635 flow from Missouri to Illinois
+Pushed 407 flow from Kansas to Oklahoma
+Pushed 871 flow from Pennsylvania to Maryland
+Pushed 615 flow from South Carolina to Georgia
+Pushed 198 flow from Wyoming to Nebraska
+Pushed 240 flow from Missouri to Iowa
+Pushed 569 flow from Michigan to Ohio
+
+--------------------------
+ ENDING SUPPLY AND DEMAND
+--------------------------
+Maine and New York, 1241
+Pennsylvania, 0
+Illinois, 0
+Indiana Ohio, 0
+Michigan, -1622
+Iowa Nebraska South Dakota, 0
+Kansas, -955
+Missouri, -5464
+Florida, 2367
+Georgia Maryland Virginia West Virginia, 0
+South Carolina, -589
+Alabama Kentucky Tennessee, 0
+Arkansas and Oklahoma, 0
+Texas, 4559
+Arizona and New Mexico, 1135
+Colorado and Wyoming, 0
+Montana Nevada Utah, 1244
+California, 791
+Oregon and Washington, 1013
