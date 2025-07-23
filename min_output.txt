@@ -1,3 +1,4 @@
+# example output using ./cement_flow -m MIN -i CementPlantDists.csv -s supply_demand.csv > min_output.txt
 Using averaged MIN border distances as weights
 
 --------------------------
